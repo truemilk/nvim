@@ -60,6 +60,9 @@ now_if_args(function()
     -- - Execute `:=require('nvim-treesitter').get_available()`
     -- - Visit 'SUPPORTED_LANGUAGES.md' file at
     --   https://github.com/nvim-treesitter/nvim-treesitter/blob/main
+    'rust',
+    'go',
+    'terraform'
   }
   local isnt_installed = function(lang)
     return #vim.api.nvim_get_runtime_file('parser/' .. lang .. '.*', false) == 0
@@ -100,9 +103,13 @@ now_if_args(function()
   -- the rules provided by 'nvim-lspconfig'.
   -- Use `:h vim.lsp.config()` or 'after/lsp/' directory to configure servers.
   -- Uncomment and tweak the following `vim.lsp.enable()` call to enable servers.
-  -- vim.lsp.enable({
-  --   -- For example, if `lua-language-server` is installed, use `'lua_ls'` entry
-  -- })
+  vim.lsp.enable({
+    -- For example, if `lua-language-server` is installed, use `'lua_ls'` entry
+    'lua_ls',
+    'rust_analyzer',
+    --'gopls',
+    'terraformls'
+  })
 end)
 
 -- Formatting =================================================================
@@ -171,3 +178,10 @@ later(function() add({ 'https://github.com/rafamadriz/friendly-snippets' }) end)
 --   -- Enable only one
 --   vim.cmd('color everforest')
 -- end)
+
+Config.now(function()
+  add({
+    'https://github.com/vague-theme/vague.nvim',
+  })
+  vim.cmd('color vague')
+end)
