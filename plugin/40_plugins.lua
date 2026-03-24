@@ -182,6 +182,7 @@ later(function() add({ 'https://github.com/rafamadriz/friendly-snippets' }) end)
 Config.now(function()
   add({
     'https://github.com/vague-theme/vague.nvim',
+    'https://github.com/webhooked/kanso.nvim'
   })
-  vim.cmd('color vague')
+  vim.cmd('color kanso')
 end)
