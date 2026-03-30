@@ -13,9 +13,9 @@ return {
 			--				grep = { hidden = true, ignored = false },
 			--			},
 			--		},
-			--		--terminal = {
-			--		--	win = { position = "float" },
-			--		--},
+			terminal = {
+				win = { position = "float" },
+			},
 		},
 	},
 	{
@@ -39,10 +39,10 @@ return {
 			},
 		},
 	},
-	--{
-	--  "folke/which-key.nvim",
-	--  opts = {
-	--    preset = "classic",
-	--  },
-	--},
+	{
+		"folke/which-key.nvim",
+		opts = {
+			preset = "classic",
+		},
+	},
 }
