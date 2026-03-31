@@ -3,27 +3,27 @@ return {
 		"folke/tokyonight.nvim",
 		opts = { style = "night" },
 	},
-	{
-		"folke/snacks.nvim",
-		opts = {
-			dashboard = { enabled = false },
-			--		picker = {
-			--			sources = {
-			--				files = { hidden = true, ignored = false },
-			--				grep = { hidden = true, ignored = false },
-			--			},
-			--		},
-			terminal = {
-				win = { position = "float" },
-			},
-		},
-	},
+	--{
+	--	"folke/snacks.nvim",
+	--	opts = {
+	--		dashboard = { enabled = false },
+	--		 picker = {
+	--		 	sources = {
+	--		 		files = { hidden = true, ignored = false },
+	--		 		grep = { hidden = true, ignored = false },
+	--		 	},
+	--		 },
+	--		terminal = {
+	--			win = { position = "float" },
+	--		},
+	--	},
+	--},
 	{
 		"folke/noice.nvim",
 		opts = {
 			presets = { lsp_doc_border = true },
-			cmdline = { enabled = false },
-			messages = { enabled = false },
+			--cmdline = { enabled = false },
+			--messages = { enabled = false },
 		},
 	},
 	{
@@ -39,10 +39,10 @@ return {
 			},
 		},
 	},
-	{
-		"folke/which-key.nvim",
-		opts = {
-			preset = "classic",
-		},
-	},
+	--{
+	--	"folke/which-key.nvim",
+	--	opts = {
+	--		preset = "classic",
+	--	},
+	--},
 }
