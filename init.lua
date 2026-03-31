@@ -767,6 +767,8 @@ vim.lsp.config("bashls", {})
 vim.lsp.config("ts_ls", {})
 vim.lsp.config("gopls", {})
 vim.lsp.config("clangd", {})
+vim.lsp.config("terraformls", {})
+vim.lsp.config("rust-analyzer", {})
 
 do
 	local luacheck = require("efmls-configs.linters.luacheck")
