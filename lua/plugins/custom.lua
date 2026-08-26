@@ -1,5 +1,14 @@
 return {
 	{
+		"EdenEast/nightfox.nvim",
+	},
+	{
+		"LazyVim/LazyVim",
+		opts = {
+			colorscheme = "carbonfox",
+		},
+	},
+	{
 		"mikavilpas/yazi.nvim",
 		version = "*",
 		event = "VeryLazy",

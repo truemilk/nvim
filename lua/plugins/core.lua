@@ -1,8 +1,4 @@
 return {
-	--{
-	--	"folke/tokyonight.nvim",
-	--	opts = { style = "night" },
-	--},
 	{
 		"folke/snacks.nvim",
 		opts = {
@@ -43,10 +39,10 @@ return {
 			},
 		},
 	},
-	--{
-	--	"folke/which-key.nvim",
-	--	opts = {
-	--		preset = "classic",
-	--	},
-	--},
+	{
+		"folke/which-key.nvim",
+		opts = {
+			preset = "classic",
+		},
+	},
 }
