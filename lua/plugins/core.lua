@@ -39,10 +39,10 @@ return {
 			},
 		},
 	},
-	{
-		"folke/which-key.nvim",
-		opts = {
-			preset = "classic",
-		},
-	},
+	--{
+	--	"folke/which-key.nvim",
+	--	opts = {
+	--		preset = "classic",
+	--	},
+	--},
 }
