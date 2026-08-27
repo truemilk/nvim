@@ -1,6 +1,5 @@
 {
   "extras": [
-    "lazyvim.plugins.extras.editor.mini-files",
     "lazyvim.plugins.extras.lang.go",
     "lazyvim.plugins.extras.lang.json",
     "lazyvim.plugins.extras.lang.markdown",
@@ -8,9 +7,7 @@
     "lazyvim.plugins.extras.lang.terraform",
     "lazyvim.plugins.extras.lang.toml",
     "lazyvim.plugins.extras.lang.yaml",
-    "lazyvim.plugins.extras.util.chezmoi",
-    "lazyvim.plugins.extras.util.gh",
-    "lazyvim.plugins.extras.util.startuptime"
+    "lazyvim.plugins.extras.util.chezmoi"
   ],
   "install_version": 8,
   "news": {
