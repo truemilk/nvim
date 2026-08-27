@@ -181,7 +181,7 @@ later(function() add({ 'https://github.com/rafamadriz/friendly-snippets' }) end)
 
 Config.now(function()
   add({
-    'https://github.com/folke/tokyonight.nvim'
+    'https://github.com/EdenEast/nightfox.nvim'
   })
-  vim.cmd('color tokyonight-night')
+  vim.cmd('colorscheme carbonfox')
 end)
