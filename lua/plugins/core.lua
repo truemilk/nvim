@@ -2,11 +2,11 @@ return {
 	{
 		"folke/snacks.nvim",
 		opts = {
-			dashboard = {
-				preset = {
-					header = "NEOVIM",
-				},
-			},
+			--dashboard = {
+			--	preset = {
+			--		header = "NEOVIM",
+			--	},
+			--},
 			picker = {
 				sources = {
 					files = { hidden = true, ignored = false },
